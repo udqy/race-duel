@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class FinishLineController : MonoBehaviour
 {
@@ -19,5 +20,6 @@ public class FinishLineController : MonoBehaviour
         yield return new WaitForSeconds(delay);
         Time.timeScale = 0;
         gamePaused = true;
+        SceneManager.LoadScene("MainMenu");
     }
 }
