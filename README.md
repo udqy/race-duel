@@ -24,7 +24,11 @@ A local multiplayer 3D racing game
    - Press the **Play** button in Unity Editor to start the game.
 
  ## TBD:
-- [ ] Main UI
-- [ ] Logic for winner
+- [x] Main Menu
+- [x] Pause Menu
+- [x] Logic for winner
+- [ ] Winner Menu
+- [ ] Settings to change properties
+- [ ] Instructions Menu
 - [ ] Count wins for every user
 - [ ] Increase difficulty
