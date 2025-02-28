@@ -18,7 +18,7 @@ A local multiplayer 3D racing game
 2. **Open in Unity:**
    - Launch Unity Hub.
    - Click **Add**, select the `race-duel` folder.
-   - Open with **Unity Editor 1000.0.35f1**.
+   - Open with **Unity Editor 6000.0.35f1**.
 
 3. **Run the Game:**
    - Press the **Play** button in Unity Editor to start the game.
