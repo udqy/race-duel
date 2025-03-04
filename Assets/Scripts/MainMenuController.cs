@@ -3,19 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    public GameObject controlsPanel;
+
     public void StartGame()
     {
-        SceneManager.LoadScene("Game"); // Make sure "Game" is added in Build Settings
+        SceneManager.LoadScene("Game");
     }
 
-    public void OpenSettings()
+    public void ToggleControlsPanel()
     {
-        Debug.Log("Settings was clicked");
-    }
-
-    public void QuitGame()
-    {
-        Debug.Log("Game is quitting...");
-        Application.Quit();
+        if (controlsPanel != null)
+        {
+            controlsPanel.SetActive(!controlsPanel.activeSelf);
+        }
+        else
+        {
+            Debug.LogWarning("ControlsPanel is not assigned in the Inspector!");
+        }
     }
 }
